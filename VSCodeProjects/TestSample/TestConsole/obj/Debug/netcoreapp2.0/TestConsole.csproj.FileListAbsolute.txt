@@ -1,0 +1,10 @@
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/bin/Debug/netcoreapp2.0/TestConsole.deps.json
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/bin/Debug/netcoreapp2.0/TestConsole.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/bin/Debug/netcoreapp2.0/TestConsole.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/bin/Debug/netcoreapp2.0/TestConsole.dll
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/bin/Debug/netcoreapp2.0/TestConsole.pdb
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/obj/Debug/netcoreapp2.0/TestConsole.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/obj/Debug/netcoreapp2.0/TestConsole.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/obj/Debug/netcoreapp2.0/TestConsole.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/obj/Debug/netcoreapp2.0/TestConsole.dll
+/home/ebrahim/VSCodeProjects/TestSample/TestConsole/obj/Debug/netcoreapp2.0/TestConsole.pdb

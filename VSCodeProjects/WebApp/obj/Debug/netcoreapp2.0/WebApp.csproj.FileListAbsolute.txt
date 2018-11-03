@@ -1,0 +1,10 @@
+/home/ebrahim/VSCodeProjects/WebApp/bin/Debug/netcoreapp2.0/WebApp.deps.json
+/home/ebrahim/VSCodeProjects/WebApp/bin/Debug/netcoreapp2.0/WebApp.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/WebApp/bin/Debug/netcoreapp2.0/WebApp.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll
+/home/ebrahim/VSCodeProjects/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb
+/home/ebrahim/VSCodeProjects/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll
+/home/ebrahim/VSCodeProjects/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb

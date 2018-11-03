@@ -1,0 +1,8 @@
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/bin/Debug/netstandard2.0/LibraryData.deps.json
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/bin/Debug/netstandard2.0/LibraryData.dll
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/bin/Debug/netstandard2.0/LibraryData.pdb
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/obj/Debug/netstandard2.0/LibraryData.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/obj/Debug/netstandard2.0/LibraryData.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/obj/Debug/netstandard2.0/LibraryData.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/obj/Debug/netstandard2.0/LibraryData.dll
+/home/ebrahim/VSCodeProjects/LibraryWebApp/LibraryData/obj/Debug/netstandard2.0/LibraryData.pdb

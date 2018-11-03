@@ -1,0 +1,11 @@
+/home/ebrahim/VSCodeProjects/TestSample/obj/Debug/netcoreapp2.0/TestSample.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/Mono.Cecil.dll
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/TestSample.deps.json
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/TestSample.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/TestSample.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/TestSample.dll
+/home/ebrahim/VSCodeProjects/TestSample/bin/Debug/netcoreapp2.0/TestSample.pdb
+/home/ebrahim/VSCodeProjects/TestSample/obj/Debug/netcoreapp2.0/TestSample.dll
+/home/ebrahim/VSCodeProjects/TestSample/obj/Debug/netcoreapp2.0/TestSample.pdb

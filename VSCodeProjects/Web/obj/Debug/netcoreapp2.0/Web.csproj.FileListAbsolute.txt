@@ -1,0 +1,10 @@
+/home/ebrahim/VSCodeProjects/Web/bin/Debug/netcoreapp2.0/Web.deps.json
+/home/ebrahim/VSCodeProjects/Web/bin/Debug/netcoreapp2.0/Web.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/Web/bin/Debug/netcoreapp2.0/Web.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/Web/bin/Debug/netcoreapp2.0/Web.dll
+/home/ebrahim/VSCodeProjects/Web/bin/Debug/netcoreapp2.0/Web.pdb
+/home/ebrahim/VSCodeProjects/Web/obj/Debug/netcoreapp2.0/Web.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/Web/obj/Debug/netcoreapp2.0/Web.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/Web/obj/Debug/netcoreapp2.0/Web.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/Web/obj/Debug/netcoreapp2.0/Web.dll
+/home/ebrahim/VSCodeProjects/Web/obj/Debug/netcoreapp2.0/Web.pdb

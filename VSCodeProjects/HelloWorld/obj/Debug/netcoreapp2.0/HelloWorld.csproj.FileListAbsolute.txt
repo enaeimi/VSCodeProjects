@@ -1,0 +1,13 @@
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/Mono.Cecil.dll
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.deps.json
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.dll
+/home/ebrahim/VSCodeProjects/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.pdb
+/home/ebrahim/VSCodeProjects/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.dll
+/home/ebrahim/VSCodeProjects/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.pdb

@@ -1,0 +1,10 @@
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/bin/Debug/netcoreapp2.0/sqlConsoleProgram.deps.json
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/bin/Debug/netcoreapp2.0/sqlConsoleProgram.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/bin/Debug/netcoreapp2.0/sqlConsoleProgram.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/bin/Debug/netcoreapp2.0/sqlConsoleProgram.dll
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/bin/Debug/netcoreapp2.0/sqlConsoleProgram.pdb
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/obj/Debug/netcoreapp2.0/sqlConsoleProgram.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/obj/Debug/netcoreapp2.0/sqlConsoleProgram.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/obj/Debug/netcoreapp2.0/sqlConsoleProgram.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/obj/Debug/netcoreapp2.0/sqlConsoleProgram.dll
+/home/ebrahim/VSCodeProjects/sqlConsoleProgram/obj/Debug/netcoreapp2.0/sqlConsoleProgram.pdb

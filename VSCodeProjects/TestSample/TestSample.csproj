@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <!-- Property to avoid injecting main method to the test project -->
+    <GenerateProgramFile>false</GenerateProgramFile>
+
+    <!-- Property to remove build error:Duplicate 'System.Reflection.AssemblyCompanyAttribute' -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+  </ItemGroup>
+
+</Project>

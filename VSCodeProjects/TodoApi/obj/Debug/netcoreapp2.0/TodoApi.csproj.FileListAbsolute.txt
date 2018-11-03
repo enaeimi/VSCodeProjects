@@ -1,0 +1,10 @@
+/home/ebrahim/VSCodeProjects/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.deps.json
+/home/ebrahim/VSCodeProjects/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.json
+/home/ebrahim/VSCodeProjects/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.dev.json
+/home/ebrahim/VSCodeProjects/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.dll
+/home/ebrahim/VSCodeProjects/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.pdb
+/home/ebrahim/VSCodeProjects/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.csproj.CoreCompileInputs.cache
+/home/ebrahim/VSCodeProjects/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfoInputs.cache
+/home/ebrahim/VSCodeProjects/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
+/home/ebrahim/VSCodeProjects/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.dll
+/home/ebrahim/VSCodeProjects/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.pdb
