@@ -8,9 +8,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            string intext1 = Console.ReadLine();
 
-            string s;
-            Console.WriteLine(s);
+            Console.WriteLine(intext1);
+
+            return;
 
         }
     }

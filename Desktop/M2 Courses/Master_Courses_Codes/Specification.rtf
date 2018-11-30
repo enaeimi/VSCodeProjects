@@ -1,0 +1,55 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Riched20 6.3.9600}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\ltrpar\widctlpar\sl276\slmult1\qc\cf1\b\f0\fs28 API Specifications for Manipulating a Character Stream\fs22\par
+
+\pard\ltrpar\widctlpar\sl276\slmult1\par
+Stream* open(unsigned char*);\b0\par
+\trowd\trgaph108\trleft-100\trrh510\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Requires \cell a pointer to a character stream.\cell\row\trowd\trgaph108\trleft-100\trrh210\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Returns\cell pointer to the created Stream object which contains a linked-list with no entries\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 To Do\cell The method takes a character stream pointer and checks if the pointer is not NULL. If the pointer is NULL it returns a NULL object. If the pointer is not NULL, it returns a Stream object which contains a linked list with no entries.\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Throws\cell If the character pointer is NULL, the method returns a NULL pointer to indicate failure to open the stream.\cell\row 
+\pard\ltrpar\widctlpar\sl276\slmult1\par
+\par
+\b  int read(Stream*, unsigned char*, int); \b0\par
+\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Requires \cell a pointer to a stream object, a pointer to a character stream and an integer which has the start index to read the stream.\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Returns\cell size of linked-list inside the stream object\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 To Do\cell The method takes a Stream object pointer, a character stream pointer and an integer starting index to start reading characters from the stream and converting them into the linked list of characters. The function continues till the end of the end of the stream i.e. until a NULL character is experienced. The method returns the size of the linked-list inside the stream object as its output.\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Throws\cell The method returns (-1) if provided index is out of bounds.\cell\row 
+\pard\ltrpar\widctlpar\sl276\slmult1\par
+\par
+\b int write(Stream*, unsigned char*, int); \par
+\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1\b0 Requires \cell a pointer to a stream object, a pointer to a character stream and an integer which has the start index to write to the stream.\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Returns\cell Returns 0 if the write is successful, returns (-1) if index is out of bounds\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 To Do\cell The method takes a Stream object and writes its contents i.e. linked-list entries into a character stream starting from the specified index. The method returns 0 if write is successful and returns -1 if index is out of bounds while performing the write. \cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 throws\cell The method returns -1 if index is out of bounds while performing the write. \cell\row 
+\pard\ltrpar\widctlpar\sl276\slmult1\par
+\par
+\b void close(Stream*);\par
+\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1\b0 Requires \cell A pointer to a stream object\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Returns\cell\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 To Do\cell The methods frees the memory of the stream object\cell\row\trowd\trgaph108\trleft-100\trbrdrl\brdrs\brdrw10\brdrbtw\brdrbar \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx1370\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx9260 
+\pard\intbl\ltrpar\nowidctlpar\sl240\slmult1 Throws\cell\cell\row 
+\pard\ltrpar\widctlpar\sl276\slmult1\par
+}
+ 
