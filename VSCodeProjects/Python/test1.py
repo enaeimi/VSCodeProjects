@@ -1,3 +1,6 @@
+
+# coding: utf-8
+
 from time import localtime
 
 activities = {8: 'Sleeping',
@@ -12,7 +15,7 @@ hour = time_now.tm_hour
 
 for activity_time in sorted(activities.keys()):
     if hour < activity_time:
-        print activities[activity_time]
+        print(activities[activity_time])
         break
 else:
-    print 'Unknown, AFK or sleeping!'
+    print('Unknown, AFK or sleeping!')
