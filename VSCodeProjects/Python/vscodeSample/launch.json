@@ -1,0 +1,51 @@
+{​​​​​​​
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {​​​​​​​
+            "name": "Alpha API CONF",
+            "type": "python",
+            "request": "launch",
+            "program": "api.py",
+            "console": "integratedTerminal"
+        }​​​​​​​,
+        {​​​​​​​
+            "name": "Alpha API DEV",
+            "type": "python",
+            "request": "launch",
+            "program": "api.py",
+            "env": {​​​​​​​"ALPHA_CONF":"dev"}​​​​​​​,
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }​​​​​​​,
+        {​​​​​​​
+            "name": "Alpha API local",
+            "type": "python",
+            "request": "launch",
+            "program": "api.py",
+            "env": {​​​​​​​"ALPHA_CONF":"local"}​​​​​​​,
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }​​​​​​​,
+        {​​​​​​​
+            "name": "Alpha TEST",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [
+                "--tests","-vb"
+            ],
+            "console": "integratedTerminal"
+        },
+        {​​​​​​​
+            "name": "Python Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }​​​​​​​​​​​​​​​​​​​​​
+    ]
+}​​​​​​​
