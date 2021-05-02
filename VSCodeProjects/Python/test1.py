@@ -1,5 +1,14 @@
 
 # coding: utf-8
+import pyodbc
+
+conn    = pyodbc.connect('Driver={SQL SERVER};SERVER=LT-SOD00006364;DATABASE=AdventureWorks2017;TRUSTED_CONNECTION=yes;')
+cursor  = conn.cursor()
+cursor.execute('USE [AdventureWorks2017]; Selecte * from person.person')
+for row in cursor:
+    print(row)
+
+    
 
 from time import localtime
 
@@ -19,3 +28,5 @@ for activity_time in sorted(activities.keys()):
         break
 else:
     print('Unknown, AFK or sleeping!')
+
+
